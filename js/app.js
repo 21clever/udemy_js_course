@@ -21,8 +21,6 @@ let name = 'Как вас зовут?',
     age = 'Сколько вам лет?',
     from = 'Откуда вы?';
 
-let result = prompt(`Ответьте на вопрос ${name}`, '');
-let result = prompt(`Ответьте на вопрос ${age}`, '');
-let result = prompt(`Ответьте на вопрос ${from}`, '');
+
 
 console.log(result);
