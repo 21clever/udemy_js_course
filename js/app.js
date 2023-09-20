@@ -1,35 +1,34 @@
 "use strict";
 
 
-// if (num == 20) {
-    //     console.log('true');
-    // } else if (num <= 50) {
-        //     console.log('Меньше');
-        // }  else {
-            //     console.log('Не угадал');
-            // }
-            
-            // (num == 40) ? console.log('Саша, ты гений') : console.log('Маша тебя любит, но она много хочет.');
-            
-            
-            
-            
-            
-const num = 40;
+// const hamburger = 5;
+// const fries = false;
 
-switch (num) {
-    case 50:
-    console.log('Слишком много!(');
-    break;
-        case 100:
-        console.log('Овер дохуя');
-        break;
-            case 20:
-            console.log('Верно!');
-            break;
-                default:
-                console.log('Увы, не повезло!');
-                break
-}
+// if (hamburger || fries) {
+//     console.log('Что-то да поел');
+// }  
+
+
+ const hamburger = 0;
+const fries = null;
+const cocacola = 0;
+// console.log(hamburger == 2 && cocacola && fries)
+
+// if (hamburger == 2 || cocacola || fries ) {
+//     console.log('Мы довольны, что пидоры после ёбки');
+// }  else {
+//     console.log('Съёбываем');
+// }
+
+console.log(hamburger || cocacola || fries);
+
+
+// console.log();
+ 
+// console.log(5 && 0); // 0
+// console.log(false && true); // false
+// console.log(20 && 1); // 1
+// console.log(100 && null); // null потому что нал преоритет, как false
+
 
 
