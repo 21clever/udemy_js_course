@@ -1,23 +1,19 @@
 "use strict";
-
-
-// const hamburger = 3;
-// const nuggets = 1;
-// const cola = 0;
-// const fries = 3;
-
-// if (hamburger === 3 && cola === 2 || fries === 3 && nuggets) {
-//     console.log('Поели, но не наелись');
-// } else {
-//     console.log('Съёбываем нахуй отсюда')
+// let number = 0;
+// while (number <= 12) {
+//     console.log(number);
+//     number = number + 5;
 // }
-// console.log(hamburger === 3 && cola === 2 || fries === 3 && nuggets); // 1
 
-// console.log(false || false);
-
-
-
-
+// let number = 0;               number = 0 ТО ЧТО МЫ ИМЕЕМ НА ДАННЫЙ МОМЕНТ       
+// while (number <= 12) {       (number <= 12) ЦЕЛЬ.
+// console.log(number);  ВЫВОД  РЕЗУЛЬТАТА
+// number = number + 2;         number = number + 2;  ТО ЧТО МЫ БУДЕМ ДЕЛАТЬ, ЧТОБЫ ДОСТИЧЬ ЭТУ ЦЕЛЬ
+// }
+                          // копилочка
+for (let money = 0; money <= 1000; money = money + 80) {
+    console.log(money); // ЗАГЛЯДЫВАЕМ В НАШ КОШЕЛЁК 
+}
 
 
 
