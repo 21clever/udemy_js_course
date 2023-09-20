@@ -1,34 +1,29 @@
 "use strict";
 
 
-// const hamburger = 5;
-// const fries = false;
+// const hamburger = 3;
+// const nuggets = 1;
+// const cola = 0;
+// const fries = 3;
 
-// if (hamburger || fries) {
-//     console.log('Что-то да поел');
-// }  
-
-
- const hamburger = 0;
-const fries = null;
-const cocacola = 0;
-// console.log(hamburger == 2 && cocacola && fries)
-
-// if (hamburger == 2 || cocacola || fries ) {
-//     console.log('Мы довольны, что пидоры после ёбки');
-// }  else {
-//     console.log('Съёбываем');
+// if (hamburger === 3 && cola === 2 || fries === 3 && nuggets) {
+//     console.log('Поели, но не наелись');
+// } else {
+//     console.log('Съёбываем нахуй отсюда')
 // }
+// console.log(hamburger === 3 && cola === 2 || fries === 3 && nuggets); // 1
 
-console.log(hamburger || cocacola || fries);
+// console.log(false || false);
 
 
-// console.log();
- 
-// console.log(5 && 0); // 0
-// console.log(false && true); // false
-// console.log(20 && 1); // 1
-// console.log(100 && null); // null потому что нал преоритет, как false
+
+
+
+
+
+
+
+
 
 
 
