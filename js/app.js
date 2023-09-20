@@ -11,13 +11,21 @@
 // number = number + 2;         number = number + 2;  ТО ЧТО МЫ БУДЕМ ДЕЛАТЬ, ЧТОБЫ ДОСТИЧЬ ЭТУ ЦЕЛЬ
 // }
                           // копилочка
-for (let money = 0; money <= 1000; money = money + 80) {
-    console.log(money); // ЗАГЛЯДЫВАЕМ В НАШ КОШЕЛЁК 
+// for (let i = 0; i <= 100; i += 10){ 
+//    if(i === 40) {
+//     continue;  
+// }
+   
+//     console.log(i);
+// }
+
+for (let current = 20; ; current += 1) {
+    if (current % 7 == 0) {
+        console.log(current);
+        break;
+    } 
+   
 }
-
-
-
-
 
 
 
