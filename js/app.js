@@ -1,26 +1,20 @@
 "use strict";
 
-// const obj = {
-//     name: 'Ivan',
-//     age: 18,
-//     earning: {
-//            cash: 1200
-//     }
-// }
+const numberOfFilms = +prompt('Сколько фильмов вы уже просмотрели?', '');
 
-// obj.name = 'Alexey';
-// console.log(obj.name);
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    acrots: {},
+    genres: [],
+    privat: false
+};
+const a = prompt('Один из последних просмотреных фильмов?', ''),
+      b = prompt('На сколько оценете его?', ''),
+      c = prompt('Один из последних просмотреных фильмов?', ''),
+      d = prompt('На сколько оценете его?', '');
 
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
 
-// const arr = ['Alex', 18, 'Chinnik']
-// arr[3] = 'Love Mary';
-// console.log(arr[3]);
-
-
-let name = 'Как вас зовут?',
-    age = 'Сколько вам лет?',
-    from = 'Откуда вы?';
-
-
-
-console.log(result);
+console.log(personalMovieDB);
