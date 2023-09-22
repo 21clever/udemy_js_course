@@ -1,17 +1,50 @@
 "use strict";
 
-const lines = 5;
-let result = ''; //0 - первая итерация 1 - вторая 2 - третья 3 -четвёртая 4 - пятая
-for(let index = 0; index < lines; index++) {
-    for(let key = 0; key <= index; key++){
-        result += '*';
-        result += ' ';
-    }
-    result += '\n';
-  
+const numberOfFilms = prompt('Сколько фильмов вы уже просмотрели?', '');
 
+const personalMoviesDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
 }
-console.log(result)
+
+ if (personalMoviesDB.count <= 10){
+    console.log('Просмотрено довольно мало фильмов')
+} else if (personalMoviesDB.count >= 10 && personalMoviesDB.count < 30) {
+    console.log('Вы классический зритель')
+} else if (personalMoviesDB.count >= 30) {
+    console.log('Вы киноман');
+} else {
+    console.log('error');
+    i--;
+}
 
 
- 
+
+    
+
+
+    for(let i = 0; i < 2; i++){
+        const a = prompt ('Один из последних просмотренных фильмов?', ''),
+              b = prompt ('На сколько оцените его?', '');
+
+
+        if(a != null && b != null && a != '' && b != '' && a.length <= 50 && b.length <= 50){
+        console.log('done');
+        personalMoviesDB[a] = b;
+
+     } else {
+        console.log('error');
+            i--;
+     }
+}
+
+
+
+
+
+
+    console.log(personalMoviesDB);
+
