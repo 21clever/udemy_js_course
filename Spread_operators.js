@@ -12,30 +12,30 @@
 // copy.a = 10;
 
 
-// function coppy(mainObj) {
-//   let objCopy = {};
+function coppy(mainObj) {
+  let objCopy = {};
   
-//   for(let key in mainObj){
-//     objCopy[key] = mainObj[key];
-//   }
-// return objCopy;
-// }
+  for(let key in mainObj){
+    objCopy[key] = mainObj[key];
+  }
+return objCopy;
+}
 
-// const numbers = {
-//   a: 1,
-//   b: 2,
-//   c: {
-//     d: 3,
-//     f: 4
-//   }
-// }
+const numbers = {
+  a: 1,
+  b: 2,
+  c: {
+    d: 3,
+    f: 4
+  }
+}
 
-// const newNumbers = coppy(numbers);
-// newNumbers.a = 10;
-// newNumbers.c.d = 200;
+const newNumbers = coppy(numbers);
+newNumbers.a = 10;
+newNumbers.c.d = 200;
 
-// console.log(numbers);
-// console.log(newNumbers);
+console.log(numbers);
+console.log(newNumbers);
 
 // const edd = {
 //   g: 5,
