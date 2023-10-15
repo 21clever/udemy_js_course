@@ -44,6 +44,10 @@
 const user = {
   name: 'Alex',
   age: 18,
-  girl: false
+  hb: '5 november'
 }
-user
+user.map(item => {
+  item.name += 'Masha';
+});
+
+console.log(name)

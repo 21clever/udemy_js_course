@@ -57,6 +57,3 @@ function isBudgetEnough(data) {
 }
 
 console.log(isBudgetEnough());
-
-
-5 + 3 
